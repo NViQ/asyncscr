@@ -3,7 +3,6 @@
 • Напишите скрипт, асинхронно, в 3 одновременных задачи, скачивающий содержимое HEAD репозитория
   ```
   https://gitea.radium.group/radium/project-configuration
-  
   ``` 
   во временную папку.
   
@@ -12,7 +11,6 @@
 • Код должен проходить без замечаний проверку линтером wemake-python-styleguide. Конфигурация nitpick
   ```
   https://gitea.radium.group/radium/project-configuration
-  
   ``` 
   
 • Обязательно 100% покрытие тестами
@@ -23,9 +21,10 @@
 
 #### Чтобы протестировать решение
 
-* клонируйте репозиторий
+клонируйте репозиторий
+
 ```
 git clone https://github.com/NViQ/asyncscr
 ```
+
 Запустите файл: test_asynscr.py
-```
